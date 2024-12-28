@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(120deg, #89f7fe, #66a6ff);
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 24px;
+            color: #66a6ff;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #66a6ff;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(120deg, #66a6ff, #89f7fe);
+            color: white;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .hero .btn {
+            text-decoration: none;
+            padding: 10px 25px;
+            background: #fff;
+            color: #66a6ff;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .hero .btn:hover {
+            background: #e0f7fe;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project-card {
+            width: 300px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        .project-card h4 {
+            margin-bottom: 10px;
+            color: #66a6ff;
+        }
+        footer {
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+        footer a {
+            color: #66a6ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Innovative Developer | Problem Solver | Creative Designer</p>
+        <a href="#projects" class="btn">Explore My Work</a>
+    </div>
+
+    <section id="about">
+        <h3>About Me</h3>
+        <p>I am a passionate developer with expertise in Blockchain, Python, C++, and UI/UX design. I enjoy creating innovative solutions like Nexus and FraudSense, focusing on creativity and functionality.</p>
+    </section>
+
+    <section id="projects">
+        <h3>My Projects</h3>
+        <div class="projects">
+            <div class="project-card">
+                <h4>Nexus</h4>
+                <p>An interactive AR storytelling cube for creative and educational engagement.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h4>FraudSense</h4>
+                <p>A dynamic anomaly detection platform for fraud mitigation in banking.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h4>To-Do List App</h4>
+                <p>A creative and aesthetic productivity app using Qt and PySide.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <p>Feel free to reach out to discuss projects or collaborations!</p>
+        <p>Email: <a href="mailto:disgoraj@gmail.com">disgoraj@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/disgorj">github.com/yourusername</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/DishaGorajia">linkedin.com/in/yourusername</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Disha Gorajia. Built with passion.</p>
+    </footer>
+</body>
+</html>
